@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <div class="toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="menu">
+    <li class="link">home</li>
+    <li class="link">sign in</li>
+    <li class="link">sign out</li>
+    <li class="link">about</li>
+  </div>
+  <div class="container">
+    <ul>
+      <li class="tabs" data-category="all">all</li>
+      <li class="tabs" data-category="web">web</li>
+      <li class="tabs" data-category="graphics">graphics</li>
+      <li class="tabs" data-category="marketing">marketing</li>
+    </ul>
+    <div class="content">
+      <div class="all web">web</div>
+      <div class="all graphics">graphics</div>
+      <div class="all marketing">marketing</div>
+      <div class="all marketing">marketing</div>
+      <div class="all web">web</div>
+      <div class="all graphics">graphics</div>
+      <div class="all marketing">marketing</div>
+      <div class="all web">web</div>
+      <div class="all web">web</div>
+      <div class="all graphics">graphics</div>
+      <div class="all marketing">marketing</div>
+      <div class="all web">web</div>
+      <div class="all graphics">graphics</div>
+      <div class="all web">web</div>
+      <div class="all graphics">graphics</div>
+      <div class="all marketing">marketing</div>
+    </div>
+  </div>
+  <div class="container">
+    <input type="text" id="text-input" maxlength="16" placeholder="type in 15 characters">
+    <div class="input-progress">
+      <div class="chars-left"></div>
+      <div class="scrollbar-cont">
+        <div class="scrollbar"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="boxes scrolling-symbol">
+      <div class="box">
+        <span class="number">60</span>
+        <span class="unit">days</span>
+      </div>
+      <div class="box">
+        <span class="number" data-unit="24">24</span>
+        <span class="unit">hours</span>
+      </div>
+      <div class="box">
+        <span class="number" data-unit="60">60</span>
+        <span class="unit">minutes</span>
+      </div>
+      <div class="box">
+        <span class="number" data-unit="60">60</span>
+        <span class="unit">seconds</span>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="boxes scrolling-symbol">
+      <div class="box">
+        <span class="number" data-unit="24">00</span>
+      </div>
+      <div class="box">
+        <span class="number" data-unit="24">00</span>
+      </div>
+      <div class="box">
+        <span class="number" data-unit="60">00</span>
+      </div>
+      <div class="box">
+        <span class="number" data-unit="60">00</span>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="border">
+    <div class="border-div">awesome box</div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
